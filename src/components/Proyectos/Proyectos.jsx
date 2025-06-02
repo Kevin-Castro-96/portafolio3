@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { FaHtml5, FaCss3Alt, FaWordpress, FaYoutube, FaGithub } from "react-icons/fa";
 import Portafolio from "../../images/portafolioUno.jpg";
 import canalYoutube from "../../images/canal-youtube.jpg";
-import "./proyectos.css";
+import "./Proyectos.css";
 
 const projects = [
   {
