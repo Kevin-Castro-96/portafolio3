@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./App.css";
 import Formulario from "./components/contactame/Contactame";
-import Trabajos from "./components/trabajos/Trabajos";
+import Trabajos from "./components/Trabajos/Trabajos";
 import Hero from "./components/hero/SeccionHero";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
