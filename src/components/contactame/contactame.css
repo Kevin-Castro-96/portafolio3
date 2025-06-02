@@ -1,0 +1,79 @@
+.seccion-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(2px); /* aplica el desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* soporte para Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* borde sutil */
+  
+}
+.contenido-contacto{
+  padding-bottom: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 15px;
+  min-height: 300px;
+}
+.campos{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input,
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+}
+textarea{
+  min-height: 30vh;
+}
+
+.boton-enviar {
+  padding: 10px;
+  border: 1px solid #DD5245;
+  background-color: #dd524500;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  width: 30%;
+}
+.boton-enviar:hover {
+  background-color: #DD5245;
+}
+/* Solo en pantallas menores a 768px (tamaño celular) */
+@media (max-width: 768px) {
+  form{
+    width: 100%;
+  }
+  form h2{
+    text-align: center;
+  }
+  .seccion-formulario{
+    padding: 0.5rem;
+  }
+  input, textarea{
+    width: 90%;
+  }
+  .contenedor-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boton-enviar{
+    width: 50%;
+  }
+  .campos{
+    align-items: center;
+  }
+}

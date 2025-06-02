@@ -1,0 +1,45 @@
+.social-container {
+  text-align: center;
+  padding: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icon {
+  font-size: 40px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #DD5245;
+}
+
+/* Colores específicos por red */
+.social-icon {
+  color: #ffffff;
+}
+/* Solo en pantallas menores a 768px (tamaño celular) */
+@media (max-width: 768px) {
+  .social-container{
+    width: 100%;
+  }
+  .social-icon{
+    font-size: 2rem;
+  }
+}

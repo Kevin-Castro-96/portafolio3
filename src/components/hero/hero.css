@@ -1,0 +1,39 @@
+.seccion-hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seccion-hero h1{
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.seccion-hero h1 span{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #DD5245;
+}
+/* Solo en pantallas menores a 768px (tamaño celular) */
+@media (max-width: 768px) {
+  .seccion-hero h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .seccion-hero h1 span{
+    font-size: 2.5rem;
+  }
+}
+.boton-cv{
+  padding: 10px;
+  border: 1px solid #DD5245;
+  background-color: transparent;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.boton-cv:hover{
+  background-color: #DD5245;
+}

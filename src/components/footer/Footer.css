@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: relative; /* O puedes usar fixed si lo quieres pegado abajo */
+  z-index: 1000;
+}
