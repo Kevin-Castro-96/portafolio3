@@ -40,7 +40,7 @@ const Proyects = () => {
   }, []);
 
   return (
-    <div className="contenido-trabajo" id="proyectos" data-aos="fade-up">
+    <div className="contenido-trabajo" id="proyectos" data-aos="fade-left">
       <div className="contenedor-trabajos">
         <h2>Proyectos realizados</h2>
         <section className="projects-section">
@@ -51,7 +51,6 @@ const Proyects = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="project-card"
-              data-aos="fade-up"
             >
               <img
                 src={project.image}

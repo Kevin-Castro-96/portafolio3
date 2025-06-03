@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="seccion-hero" data-aos="zoom-in">
       <h1>
-        Kevin Castro<span> Desarrollador FullStack</span>
+        Kevin Castro<span> Desarrollador Frontend</span>
       </h1>
       <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
         <button className="boton-cv">Descargar CV</button>

@@ -54,9 +54,9 @@ const Formulario = () => {
   };
 
   return (
-    <div className="contenido-contacto" id="contactame" data-aos="fade-up">
+    <div className="contenido-contacto" id="contactame" data-aos="fade-left">
       <div className="seccion-formulario">
-        <form ref={form} onSubmit={handleSubmit} data-aos="fade-up">
+        <form ref={form} onSubmit={handleSubmit}>
           <h2>Contactame</h2>
           <div className="campos">
             <input

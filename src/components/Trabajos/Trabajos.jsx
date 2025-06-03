@@ -39,7 +39,7 @@ const Trabajos = () => {
   }, []);
 
   return (
-    <div className="contenido-trabajo" id="trabajos" data-aos="fade-up">
+    <div className="contenido-trabajo" id="trabajos" data-aos="fade-left">
       <div className="contenedor-trabajos">
         <h2>Trabajos realizados</h2>
         <section className="projects-section">
@@ -50,7 +50,6 @@ const Trabajos = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="project-card"
-              data-aos="fade-up"
             >
               <img
                 src={project.image}
