@@ -21,7 +21,7 @@ const SocialLinks = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/KNC96"
+          href="https://github.com/Kevin-Castro-96"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon github"
