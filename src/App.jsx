@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { Helmet } from "react-helmet"; // <-- importa Helmet
 import "./App.css";
 import Formulario from "./components/contactame/Contactame";
 import Trabajos from "./components/Trabajos/Trabajos";
@@ -16,7 +17,11 @@ const App = () => {
 
   return (
     <div className="app">
-      
+      <Helmet>
+        <title>Portfolio - Kevin Castro</title>
+        <meta name="description" content="Este es mi portfolio personal creado con React." />
+      </Helmet>
+
       <Particles
         id="tsparticles"
         init={particlesInit}
