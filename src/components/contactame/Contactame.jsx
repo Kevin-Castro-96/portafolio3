@@ -9,7 +9,7 @@ const Formulario = () => {
   const form = useRef();
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 600, once: true });
   }, []);
 
   const [formData, setFormData] = useState({

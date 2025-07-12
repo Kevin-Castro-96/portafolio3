@@ -35,7 +35,7 @@ const projects = [
 
 const Trabajos = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 600, once: true });
   }, []);
 
   return (
